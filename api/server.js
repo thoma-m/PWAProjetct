@@ -54,5 +54,5 @@ app.get('*', function (req, res) {
 });
 
 app.listen(config.port, function () {
-  console.log('ganatan-backend Service listening on port ' + config.port + '!');
+  console.log('pwa-backend Service listening on port ' + config.port + '!');
 })

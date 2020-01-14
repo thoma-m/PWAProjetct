@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 import { environment } from '../../../../environments/environment';
-
+import { TeachService } from './../../application/services/teach.service';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -18,53 +18,14 @@ export class HomeComponent implements OnInit {
 
   constructor(
     private meta: Meta,
-    private titleService: Title) {
-    this.features =
-      [
-        {
-          icon: 'far fa-chart-bar',
-          type: 'Charts',
-          description: 'Integrate the open-source library Chart.js',
-          image: 'showcase-charts.png',
-          link: 'chartjs'
-        },
-        {
-          icon: 'far fa-chart-bar',
-          type: 'Components',
-          description: 'Smartphone Component with Input, Output and Event Emitter',
-          image: 'showcase-components.png',
-          link: 'components'
-        },
-        {
-          icon: 'far fa-chart-bar',
-          type: 'Services',
-          description: 'Use services to view a playlist and a youtube player',
-          image: 'showcase-services-playlist-youtube.png',
-          link: 'services'
-        },
-        {
-          icon: 'far fa-chart-bar',
-          type: 'HttpClient',
-          description: 'Use an external API with the HttpClient module',
-          image: 'showcase-httpclient.png',
-          link: 'httpclient'
-        },
-        {
-          icon: 'far fa-chart-bar',
-          type: 'Responsive Images list',
-          description: 'Display a Responsive List of Images',
-          image: 'showcase-responsive-images-list.png',
-          link: 'movies-images-list'
-        },
-      ];
-
+    private titleService: Title,private teachservice:TeachService) {
   }
 
   ngOnInit() {
-    this.titleService.setTitle('angular.ganatan: Application Web with Angular 8');
+    this.titleService.setTitle('angular.pwa: Application Web with Angular 8');
     this.meta.addTag({
-      name: 'angular.ganatan',
-      content: 'danny ganatan'
+      name: 'angular.pwa',
+      content: 'danny pwa'
     });
     this.meta.updateTag(
       {

@@ -1,7 +1,7 @@
 module.exports = {
   apps : [
     {
-      name      : 'ganatan-backend',
+      name      : 'pwa-backend',
       script    : 'server.js',
       env: {
         COMMON_VARIABLE: 'true'

@@ -34,6 +34,10 @@ const routes: Routes = [
     loadChildren: () => import('./modules/general/about/about.module').then(mod => mod.AboutModule)
   },
   {
+    path: 'step/:idStep',
+    loadChildren: () => import('./modules/general/step/step.module').then(mod => mod.StepModule)
+  },
+  {
     path: 'contact',
     loadChildren: () => import('./modules/general/contact/contact.module').then(mod => mod.ContactModule)
   },

@@ -7,17 +7,17 @@
     <br>
     Prototype bootstrap
     <br>
-    <a href="https://angular.ganatan.com/">LIVE DEMO</a>
+    <a href="https://angular.pwa.com/">LIVE DEMO</a>
     <br>
     <br>
-    <a href="https://angular.ganatan.com/">
+    <a href="https://angular.pwa.com/">
       <img src="https://media.giphy.com/media/RfqiR12yhtHpwaItBq/giphy.gif" alt="Angular 8 Example Application"/>
     </a>
   </p>
 </p>
 
 ## Lighthouse Audit
-<img src="https://api.ganatan.org/articles/img/search-engine-optimization-with-angular-after.png"/>
+<img src="https://api.pwa.org/articles/img/search-engine-optimization-with-angular-after.png"/>
 
 ## Table of contents
 
@@ -30,8 +30,8 @@
 
 ## Status
 
-[![GitHub stars](https://img.shields.io/github/stars/ganatan/angular8-app.svg?style=social&label=Star)](https://github.com/ganatan/angular8-app)
-[![GitHub forks](https://img.shields.io/github/forks/ganatan/angular8-app.svg?style=social&label=Fork)](https://github.com/ganatan/angular8-app/fork)
+[![GitHub stars](https://img.shields.io/github/stars/pwa/angular8-app.svg?style=social&label=Star)](https://github.com/pwa/angular8-app)
+[![GitHub forks](https://img.shields.io/github/forks/pwa/angular8-app.svg?style=social&label=Fork)](https://github.com/pwa/angular8-app/fork)
 
 
 
@@ -76,7 +76,7 @@
 
 ```bash
 # clone the repo
-git clone https://github.com/ganatan/angular8-app.git
+git clone https://github.com/pwa/angular8-app.git
 
 # change directory
 cd angular8-app
@@ -154,9 +154,9 @@ in your browser go to [http://localhost:4200](http://localhost:4200)
 
 ## Documentation
 English Tutorials
-- Installation - https://www.ganatan.com/tutorials/build-full-web-application-with-angular
-- Tutorials Step by Step - https://www.ganatan.com/tutorials/en
+- Installation - https://www.pwa.com/tutorials/build-full-web-application-with-angular
+- Tutorials Step by Step - https://www.pwa.com/tutorials/en
 
 Tutoriels en français
-- Installation - https://www.ganatan.com/tutorials/creer-application-web-complete-avec-angular
-- Tutoriels Etapes par étapes - https://www.ganatan.com/tutorials
+- Installation - https://www.pwa.com/tutorials/creer-application-web-complete-avec-angular
+- Tutoriels Etapes par étapes - https://www.pwa.com/tutorials

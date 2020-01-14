@@ -8,67 +8,67 @@
 
 
 <url>
-  <loc>https://angular.ganatan.com/</loc>
+  <loc>https://angular.pwa.com/</loc>
   <lastmod>2019-12-16T08:23:05+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://angular.ganatan.com/about</loc>
+  <loc>https://angular.pwa.com/about</loc>
   <lastmod>2019-12-16T08:23:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://angular.ganatan.com/contact</loc>
+  <loc>https://angular.pwa.com/contact</loc>
   <lastmod>2019-12-16T08:23:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://angular.ganatan.com/signin</loc>
+  <loc>https://angular.pwa.com/signin</loc>
   <lastmod>2019-12-16T08:23:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://angular.ganatan.com/components</loc>
+  <loc>https://angular.pwa.com/components</loc>
   <lastmod>2019-12-16T08:23:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://angular.ganatan.com/services</loc>
+  <loc>https://angular.pwa.com/services</loc>
   <lastmod>2019-12-16T08:23:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://angular.ganatan.com/httpclient</loc>
+  <loc>https://angular.pwa.com/httpclient</loc>
   <lastmod>2019-12-16T08:23:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://angular.ganatan.com/directives</loc>
+  <loc>https://angular.pwa.com/directives</loc>
   <lastmod>2019-12-16T08:23:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://angular.ganatan.com/pipes</loc>
+  <loc>https://angular.pwa.com/pipes</loc>
   <lastmod>2019-12-16T08:23:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://angular.ganatan.com/observables</loc>
+  <loc>https://angular.pwa.com/observables</loc>
   <lastmod>2019-12-16T08:23:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://angular.ganatan.com/modal</loc>
+  <loc>https://angular.pwa.com/modal</loc>
   <lastmod>2019-12-16T08:23:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://angular.ganatan.com/reactiveform</loc>
+  <loc>https://angular.pwa.com/reactiveform</loc>
   <lastmod>2019-12-16T08:23:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://angular.ganatan.com/templatedriven</loc>
+  <loc>https://angular.pwa.com/templatedriven</loc>
   <lastmod>2019-12-16T08:23:05+00:00</lastmod>
   <priority>0.80</priority>
 </url>

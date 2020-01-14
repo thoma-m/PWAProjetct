@@ -4,11 +4,12 @@
       <div class="row pb-4">
         <div class="card" style="width: 18rem;">
           <div class="card-body">
-            <h5 class="card-title">Feature : HttpClient</h5>
+            <h5 class="card-title">HttpClient</h5>
             <hr>
-            <p class="card-text">Use HtppClient</p>
+            <p class="card-text">Utilisation de HtppClient</p>
             <button type="button" class="btn btn-primary mr-4" (click)="getUsers()">Get</button>
             <button type="button" class="btn btn-primary" (click)="resetUsers()">Reset</button>
+          <p> Note : Pour activer le State Management, commentez  la ligne 36 de item.component.ts (A faire quand vous avez constaté que le service Worker sur ce endpoint fonctionne bien) <br><br>Notez la syntaxe du fichier ngsw-config.json à la racine de votre projet.<br>Le noeud <font style="font-weight:bolder">dataGroups</font> spécifie au service Worker de conserver une version en cache de ce flux de donnée </p>
           </div>
         </div>
         <div *ngIf="!loaded">

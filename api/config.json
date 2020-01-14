@@ -1,15 +1,15 @@
 {
   "dev": {
-    "application": "ganatan-backend",
-    "databaseName": "ganatanbackend",
+    "application": "pwa-backend",
+    "databaseName": "pwabackend",
     "url": "http://localhost:5200/",
     "login":"postgres",
     "password":"",
     "port": 5200
   },
   "prod": {
-    "application": "ganatanbackend",
-    "databaseName": "ganatanbackend",
+    "application": "pwabackend",
+    "databaseName": "pwabackend",
     "url": "https://www.yourapi.com/",
     "login":"postgres",
     "password":"Trustno1",

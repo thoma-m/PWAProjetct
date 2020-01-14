@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit {
 
   constructor(
     private meta: Meta,
-    private titleService: Title,private teachservice:TeachService) {
+    private titleService: Title,public teachservice:TeachService) {
   }
 
   ngOnInit() {

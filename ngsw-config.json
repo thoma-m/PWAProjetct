@@ -25,5 +25,15 @@
         ]
       }
     }
+  ],"dataGroups": [
+      {
+          "name": "posts",
+          "urls": ["https://jsonplaceholder.typicode.com/users"],
+          "cacheConfig": {
+              "strategy": "performance",
+              "maxSize": 100,
+              "maxAge": "3d"
+          }
+      }
   ]
 }

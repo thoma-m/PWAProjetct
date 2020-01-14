@@ -6,7 +6,7 @@ import { HomeComponent } from './modules/general/home/home.component';
 import { NotFoundComponent } from './modules/general/not-found/not-found.component';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
-
+import {ServiceWorkerModule, SwRegistrationOptions} from '@angular/service-worker';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,6 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     CommonModule,
     AppRoutingModule,
+    ServiceWorkerModule.register('/ngsw-worker.js'),
     HttpClientModule,
   ],
   providers: [],

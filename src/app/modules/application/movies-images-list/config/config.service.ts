@@ -8,11 +8,11 @@ export class ConfigService {
 
   constructor() {
 
-    const api = false;
-    const url = './assets/params/json/';
+    // const api = false;
+    // const url = './assets/params/json/';
 
-    /* const api = true;
-    const url = 'http://localhost:5200/'; */
+    const api = true;
+    const url = 'http://localhost:5200/'; 
 
     this.config.api = api;
     this.config.url = url;

@@ -33,7 +33,7 @@ export class ItemsComponent implements OnInit {
     this.loaded = false;
 
     this.items = this.state.get(STATE_KEY_ITEMS, <any> []);
-
+    this.items =[];
     if (this.items.length === 0) {
       this.itemsService.getItems('https://jsonplaceholder.typicode.com/users')
         .subscribe(

@@ -7,7 +7,7 @@ import { TeachService } from './../../application/services/teach.service';
   styleUrls: ['./step.component.css']
 })
 export class StepComponent implements OnInit {
-  idStep:Number;
+  idStep:any;
   detailTeach:any;
   constructor(private route: ActivatedRoute,
     private router: Router,public teachservice:TeachService) { }
@@ -15,7 +15,7 @@ export class StepComponent implements OnInit {
   ngOnInit() {
     this.route.pathFromRoot[2].params.subscribe(res =>{
       this.idStep = res.idStep;
-      this.detailTeach =  this.teachservice.getServices()[0];
+      this.detailTeach =  this.teachservice.getServices()[this.idStep - 1];
     })
 
 

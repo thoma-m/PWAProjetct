@@ -6,7 +6,7 @@ import { SwPush } from '@angular/service-worker'
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-starter';
+  title = 'PWA Starter';
   version = 'Angular version 8.2.14';
 
   constructor(swPush: SwPush) {
